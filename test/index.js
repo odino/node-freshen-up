@@ -19,7 +19,7 @@ describe('freshen-up', function(){
       setTimeout(function(){
         assert.notEqual(timestamp, time.get())
         done()
-      }, 51);
+      }, 100);
     })
     
     it('should accept a fn and resolve its value multiple times. if we access the value before it gets freshened, the old one will be returned', function(done){
