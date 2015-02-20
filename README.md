@@ -76,6 +76,10 @@ setTimeout(function(){
 }, 1000);
 ```
 
+## Tests
+
+You can simply run `mocha` and meet greenland.
+
 ## Alternatives
 
 Cache invalidation. But that's [too much of a problem](http://martinfowler.com/bliki/TwoHardThings.html).
