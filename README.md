@@ -61,12 +61,6 @@ you can override this setting by just specifying your
 custom interval:
 
 ``` javascript
-var freshenUp = require('freshen-up');
-
-function pingGoogleDotComToCheckWhetherWeHaveInternetAccess() {
-  // will return true or false
-};
-
 // set an interval of 1s
 var ping = freshenUp(pingGoogleDotComToCheckWhetherWeHaveInternetAccess, 1000);
 
@@ -86,5 +80,5 @@ setTimeout(function(){
 
 Cache invalidation. But that's [too much of a problem](http://martinfowler.com/bliki/TwoHardThings.html).
 
-But yeah, seriously, you can think of a 100 times to
+But yeah, seriously, you can think of a 100 ways to
 do this more efficiently.
