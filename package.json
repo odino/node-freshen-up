@@ -1,6 +1,6 @@
 {
   "name": "freshen-up",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cache objects for a specified TTL. After that, freshen them up!",
   "main": "index.js",
   "scripts": {
